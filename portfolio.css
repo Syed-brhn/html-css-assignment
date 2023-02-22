@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    color: white;
+}
+
+body {
+    background-color: #363543;
+}
+
+
+.hero {
+    position: relative;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 10px 0;
+    align-items: center;
+    background-color: #363543;
+    justify-content: space-between;
+}
+
+nav p {
+    font-weight: bold;
+    font-size: 30px;
+    background-color: #363543;
+
+
+}
+
+nav ul li {
+
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+
+}
+
+
+nav ul li a :hover {
+    color: red;
+}
+
+.detail {
+    /* margin-left: 8%;
+    margin-top: 15%; */
+}
+
+.detail h1 {
+    font-size: 50px;
+    color: wheat;
+    margin-bottom: 20px;
+}
+
+.detail .header-right {
+    color: white;
+}
+
+.detail .header-left {
+    color: white;
+    line-height: 22px;
+}
+
+span {
+    color: wheat;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container {
+    height: 70vh;
+    background-color: #363543;
+    width: 80%;
+    margin: auto;
+
+
+}
+
+.detail {
+    background-color: #363543;
+    margin-top: 20px;
+    /* height: 70vh; */
+}
+
+.detail a {
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+}
+
+.brhn {
+    border-top-left-radius: 80px;
+    border-top-right-radius: 80px;
+    border-bottom-left-radius: 80px;
+    border-bottom-left-radius: 80px;
+    border-radius: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: 20px;
+    width: 300px;
+}
+
+
+.icon-container {}
+
+.all-icon {
+    padding: 25px;
+    background-color: #403f50;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.section-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 80%;
+    margin: auto;
+}
+
+.projects {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.projects div {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.section-container-item {
+    width: 50%;
+}
+
+
+.project2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.devider {
+    width: 85%;
+    margin-left: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.project2-item {
+    display: flex;
+    align-items: center;
+
+}
+
+.project2-item div {
+    margin-left: 5px;
+}
